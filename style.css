@@ -166,6 +166,7 @@ p{
     justify-content: flex-end; /* Aligner les éléments à droite */
     align-items: center; /* Centrer les éléments verticalement */
 	margin-right: 40px;
+	margin-top: 20px;
 }
 .logo-wrap {
 	position: absolute;
