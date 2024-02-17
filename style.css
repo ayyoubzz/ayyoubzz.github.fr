@@ -151,7 +151,7 @@ p{
 	height: 100vh;
 }
 
-/* #Navigation
+/* #igation
 ================================================== */
  
 .cd-er{
@@ -165,6 +165,7 @@ p{
     display: flex;
     justify-content: flex-end; /* Aligner les éléments à droite */
     align-items: center; /* Centrer les éléments verticalement */
+	margin-right: 20px;
 }
 .logo-wrap {
 	position: absolute;
@@ -190,7 +191,7 @@ p{
 .logo-wrap a:hover {
 	opacity: 0.9;
 }
-.nav-but-wrap{ 
+.-but-wrap{ 
 	position: relative;
 	display: inline-block;
 	padding-left: 15px;
@@ -375,6 +376,11 @@ body.nav-active .menu-icon:hover .menu-icon__line-right {
 }
 body.nav-active .nav {
 	visibility: visible;
+	width: 100vw; /* Couvre toute la largeur de la vue */
+	height: 100vh; /* Couvre toute la hauteur de la vue */
+	position: fixed; /* Assure qu'il couvre toute la page */
+	top: 0;
+	left: 0;
 }
 body.nav-active .nav:before, body.nav-active .nav:after {
 	-webkit-transform: translateX(0%) translateY(0%);
