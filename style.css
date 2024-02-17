@@ -162,7 +162,8 @@ p{
 	z-index:100;
 } 
 .header-wrapper{
-    position: relative;
+	display: flex;
+	justify-content: space-between;
 	width: calc(100% - 100px);
 	margin-left: 50px;
 } 
